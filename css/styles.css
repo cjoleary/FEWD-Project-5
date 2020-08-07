@@ -11,7 +11,18 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #6e859c;
-  padding: 50px;
+}
+
+main {
+  padding: 25px;
+}
+
+footer {
+  width: 100%;
+  color: whitesmoke;
+  background-color: #6E9C9C;
+  text-align: center;
+  padding: 10px;
 }
 
 /* Search Bar */
@@ -24,7 +35,8 @@ body {
 #search {
   width: 50%;
   padding: 10px;
-  border: solid 3px #6E9C9C;
+  background-color: whitesmoke;
+  border: solid 3px #6e9c9c;
   border-radius: 3px;
 }
 
