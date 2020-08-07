@@ -16,12 +16,13 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-areas:
     "search"
-    "gallery"
+    "main"
     "footer";
 }
 
 main {
   padding: 25px;
+  grid-area: main;
 }
 
 footer {
@@ -58,7 +59,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 25px;
-  grid-area: gallery;
 }
 
 .box {
