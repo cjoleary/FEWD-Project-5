@@ -7,7 +7,7 @@ baguetteBox.run('.gallery');
 $(document).ready( function() {
     // declare a variable that will get my images
     let images = document.getElementsByTagName('a');
-        // use an event that will keep track of my keystrokes
+        // use an event that will keep track of what is entered in the search bar
         $('#search').on( 'keyup', function() {
         // tell it what you want to happen when you type
         let search = $('#search').val().toLowerCase();
