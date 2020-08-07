@@ -5,3 +5,22 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
+
+body {
+  background-color: #6e859c;
+  padding: 50px;
+}
+
+.gallery {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 25px;
+}
+
+.box {
+  margin: 0 auto;
+}
