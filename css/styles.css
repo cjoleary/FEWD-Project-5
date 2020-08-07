@@ -9,8 +9,23 @@
   }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #6e859c;
   padding: 50px;
+}
+
+/* Search Bar */
+
+.search {
+  text-align: center;
+  width: 100%;
+}
+
+#search {
+  width: 50%;
+  padding: 10px;
+  border: solid 3px #6E9C9C;
+  border-radius: 3px;
 }
 
 /* Photo Gallery */
@@ -18,7 +33,7 @@ body {
 .gallery {
   width: 90%;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 25px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 25px;
