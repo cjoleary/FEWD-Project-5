@@ -27,6 +27,8 @@ main {
 
 footer {
   width: 100%;
+  margin-top: auto;
+  max-height: 100px;
   color: whitesmoke;
   background-color: #6E9C9C;
   text-align: center;
