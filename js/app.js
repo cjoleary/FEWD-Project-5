@@ -19,7 +19,7 @@ $(document).ready( function() {
             if ( searchVal.toLowerCase().indexOf(search) > -1 ) {
                 images[i].parentElement.style.display = '';
             } 
-            // if not, do not show it
+            // if not, hide it
             else {
                 images[i].parentElement.style.display = 'none';
             }
