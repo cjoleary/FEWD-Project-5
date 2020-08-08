@@ -17,7 +17,7 @@ $(document).ready( function() {
             let searchVal = images[i].getAttribute('data-caption');
             // if an image has that attribute, show it
             if ( searchVal.toLowerCase().indexOf(search) > -1 ) {
-                images[i].style.display = '';
+                images[i].parentElement.style.display = '';
             } 
             // if not, do not show it
             else {
