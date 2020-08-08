@@ -21,8 +21,9 @@ $(document).ready( function() {
             } 
             // if not, do not show it
             else {
-                images[i].style.display = 'none';
+                images[i].parentElement.style.display = 'none';
             }
         }
     });
 });
+
