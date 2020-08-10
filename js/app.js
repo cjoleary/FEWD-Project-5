@@ -9,7 +9,7 @@ $(document).ready( function() {
     let images = document.getElementsByTagName('a');
         // use an event that will keep track of what is entered in the search bar
         $('#search').on( 'keyup', function() {
-        // tell it what you want to happen when you type
+        // store the search bar entry in a variable
         let search = $('#search').val().toLowerCase();
         // loop through all of my images
         for ( var i = 0; i < images.length; i++ ){
